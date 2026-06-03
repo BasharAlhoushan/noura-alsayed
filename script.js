@@ -1,282 +1,447 @@
+// ==========================================
+// LOCALIZATION DICTIONARY
+// ==========================================
 const translations = {
-    en: {
-        nav_services: "Services",
-        nav_pricing: "Price List",
-        nav_follow: "Follow Us",
-        nav_location: "Location",
-        nav_contact: "Contact",
-        nav_logo_text: "Noura Alsayed",
-        nav_logo_sub: "Beauty Lounge",
-        hero_title: "Professional",
-        hero_title2: "Noura alsayed",
-        hero_tagline: "Integrated beauty center, a complete beauty experience under one roof<br>Professional permanent makeup<br>Lip blush and microblading with modern techniques, stable medical pigments, and a natural touch that highlights your features<br>Complete bridal preparation<br>Protein and hair treatments<br>Modern hair dyes and highlights<br>Skin care and facial sessions<br>Specialized for healthy and glowing skin",
-        hero_cta: "Explore Our Services",
-        scroll_indicator: "Scroll",
-        services_title: "Our Services",
-        services_sub: "What we offer",
-        serv_1_title: "Permanent Makeup",
-        serv_1_desc: "Professional permanent makeup tailored to your unique features.",
-        serv_2_title: "Microblading & Lip Blush",
-        serv_2_desc: "Enhance your lips and eyebrows with our advanced techniques.",
-        serv_3_title: "Bridal Preparation",
-        serv_3_desc: "Complete bridal beauty packages for your special day.",
-        serv_4_title: "Hair Treatments",
-        serv_4_desc: "Protein treatments and care for healthy, shiny hair.",
-        serv_5_title: "Coloring & Highlights",
-        serv_5_desc: "Modern hair dyes and highlights by professional colorists.",
-        serv_6_title: "Skincare & Facials",
-        serv_6_desc: "Specialized treatments for radiant and healthy skin.",
-        price_title: "Price List",
-        price_sub: "Our Packages",
-        pkg_1_title: "Engagement Package",
-        pkg_1_item1: "Professional Makeup",
-        pkg_1_item2: "Hairstyle",
-        pkg_1_item3: "Manicure, Pedicure & Paraffin",
-        pkg_1_item4: "Hydrafacial Session",
-        pkg_2_title: "Royal Bridal Package",
-        pkg_2_item1: "Professional Makeup",
-        pkg_2_item2: "Hairstyle",
-        pkg_2_item3: "Manicure, Pedicure & Paraffin",
-        pkg_2_item4: "Royal Moroccan Bath",
-        pkg_2_item5: "Hydrafacial & Collagen Skin Care",
-        price_label: "Price",
-        premium_services_title: "Premium Services",
-        premium_item1: "Collagen Skin Care",
-        premium_item2: "Microblading",
-        premium_item3: "Microblading Retouch",
-        premium_item4: "Lip Blush (Permanent)",
-        follow_title: "Follow Us",
-        follow_sub: "On Social Media",
-        visit_profile: "Visit Profile",
-        visit_page: "Visit Page",
-        add_snap: "Add on Snap",
-        loc_title: "Our Location",
-        loc_sub: "Visit Us",
-        loc_address: "Address",
-        loc_address_val: "Tariq Street, Amman, Jordan, 11947",
-        loc_hours: "Working Hours",
-        loc_hours_val: "Saturday – Thursday",
-        loc_hours_val2: "10:00 AM - 08:00 PM",
-        loc_hours_fri: "Friday",
-        loc_hours_closed: "Closed",
-        loc_book: "Bookings",
-        loc_book_val: "Walk-ins welcome · Appointments preferred",
-        contact_title: "Contact Us",
-        contact_sub: "Get in touch",
-        contact_get_in_touch: "Get in Touch",
-        contact_get_in_touch_sub: "Contact us anytime",
-        contact_phone: "Phone",
-        contact_loc: "Location",
-        contact_loc_val: "Amman, Jordan",
-        contact_wa: "Chat on WhatsApp",
-        contact_cliq: "Pay with CliQ",
-        contact_cliq_sub: "CliQ Payment",
-        contact_cliq_num: "CliQ Number",
-        contact_cliq_bank: "Available for all local banks",
-        footer_tagline: "Noura Alsayed Salon — A complete beauty experience under one roof",
-        footer_stat1: "Various Services",
-        footer_stat2: "Days a week",
-        footer_stat3: "Amman, Jordan",
-        footer_rights: "All rights reserved © 2026 Noura Alsayed Beauty Lounge",
-        currency: "JD"
-    },
-    ar: {
-        nav_services: "خدماتنا",
-        nav_pricing: "الأسعار",
-        nav_follow: "تابعونا",
-        nav_location: "موقعنا",
-        nav_contact: "تواصل معنا",
-        nav_logo_text: "نورة السيد",
-        nav_logo_sub: "بيوتي لاونج",
-        hero_title: "Professional",
-        hero_title2: "Noura alsayed",
-        hero_tagline: "بيوتي سنتر متكامل تجربة جمال كاملة تحت سقف واحد<br>بيرمننت ميكب احترافي<br>توريد شفايف ميكروبليدنج تقنيات حديثة وأصباغ طبية ثابتة ولمسة طبيعية تبرز ملامحك<br>تجهيز عرائس كامل<br>بروتين وعلاجات شعر<br>صبغات وهايلايت عصري<br>عناية بالبشرة وجلسات فيشل<br>متخصصة لبشرة صحية ومشرقة",
-        hero_cta: "تصفحي خدماتنا",
-        scroll_indicator: "مرر للأسفل",
-        services_title: "خدماتنا",
-        services_sub: "ما نقدمه لكِ",
-        serv_1_title: "بيرمننت ميكب احترافي",
-        serv_1_desc: "تقنيات حديثة وأصباغ طبية ثابتة ولمسة طبيعية تبرز ملامحك.",
-        serv_2_title: "توريد شفايف وميكروبليدنج",
-        serv_2_desc: "توريد شفايف وميكروبليدنج بأحدث التقنيات لجمال يدوم.",
-        serv_3_title: "تجهيز عرائس كامل",
-        serv_3_desc: "تجهيز شامل للعرائس لتتألقي في يومك المميز.",
-        serv_4_title: "بروتين وعلاجات شعر",
-        serv_4_desc: "علاجات متقدمة وبروتين لشعر صحي ولامع.",
-        serv_5_title: "صبغات وهايلايت عصري",
-        serv_5_desc: "أحدث ألوان الصبغات والهايلايت العصري.",
-        serv_6_title: "عناية بالبشرة وجلسات فيشل",
-        serv_6_desc: "متخصصة لبشرة صحية ومشرقة وجلسات تنظيف عميق.",
-        price_title: "قائمة الأسعار",
-        price_sub: "باقاتنا وعروضنا",
-        pkg_1_title: "بكج عروس الخطبة",
-        pkg_1_item1: "مكياج احترافي",
-        pkg_1_item2: "تسريحة شعر",
-        pkg_1_item3: "بديكير ومنيكير وبرافين",
-        pkg_1_item4: "جلسة هيدرافيشل",
-        pkg_2_title: "بكج العروس الملكي",
-        pkg_2_item1: "مكياج احترافي",
-        pkg_2_item2: "تسريحة شعر",
-        pkg_2_item3: "بديكير ومنيكير وبرافين",
-        pkg_2_item4: "حمام مغربي ملكي",
-        pkg_2_item5: "جلسة هيدرافيشل وعلاج بشرة بالكولاجين",
-        price_label: "السعر",
-        premium_services_title: "خدمات إضافية مميزة",
-        premium_item1: "علاج بشرة بالكولاجين",
-        premium_item2: "ميكروبليدنج حواجب",
-        premium_item3: "رتوش ميكروبليدنج",
-        premium_item4: "توريد شفايف بيرماننت",
-        follow_title: "تابعونا",
-        follow_sub: "على منصات التواصل",
-        visit_profile: "زيارة الحساب",
-        visit_page: "زيارة الصفحة",
-        add_snap: "أضف على سناب",
-        loc_title: "موقعنا",
-        loc_sub: "تفضلي بزيارتنا",
-        loc_address: "العنوان",
-        loc_address_val: "شارع طارق، عمّان، الأردن، 11947",
-        loc_hours: "أوقات العمل",
-        loc_hours_val: "السبت – الخميس",
-        loc_hours_val2: "10:00 صباحاً - 08:00 مساءً",
-        loc_hours_fri: "الجمعة",
-        loc_hours_closed: "مغلق",
-        loc_book: "الحجوزات",
-        loc_book_val: "نرحب بالزيارات · يُفضل الحجز المسبق",
-        contact_title: "تواصل معنا",
-        contact_sub: "نحن هنا لخدمتك",
-        contact_get_in_touch: "تواصل معنا",
-        contact_get_in_touch_sub: "تواصلي معنا بأي وقت",
-        contact_phone: "الهاتف",
-        contact_loc: "الموقع",
-        contact_loc_val: "عمّان، الأردن",
-        contact_wa: "واتساب",
-        contact_cliq: "الدفع عبر كليك",
-        contact_cliq_sub: "CliQ",
-        contact_cliq_num: "رقم كليك",
-        contact_cliq_bank: "متاح لجميع البنوك المحلية",
-        footer_tagline: "صالون نورة السيد — تجربة جمال كاملة تحت سقف واحد",
-        footer_stat1: "خدمات متنوعة",
-        footer_stat2: "أيام في الأسبوع",
-        footer_stat3: "عمّان، الأردن",
-        footer_rights: "جميع الحقوق محفوظة © ٢٠٢٦ صالون نورة السيد",
-        currency: "دينار"
-    }
+  en: {
+    // Navigation
+    nav_home: "Home",
+    nav_about: "About Us",
+    nav_services: "Services",
+    nav_pricing: "Packages",
+    nav_location: "Find Us",
+    nav_cta: "Book Now",
+    lang_label: "العربية",
+
+    // Hero
+    hero_badge: "Official Premium Lounge",
+    hero_title_2: "Noura alsayed Beauty Lounge",
+    hero_subtitle: "Managed by beauty & skin specialist Noura Alsayed",
+    hero_tagline: "A complete beauty lounge. A luxurious experience under one roof where your elegance and natural charm are professionalized.",
+    hero_cta_call: "Call Center",
+    hero_cta_whatsapp: "WhatsApp Booking",
+    floating_rating: "5.0 Rated",
+    floating_review_count: "200+ Reviews",
+    floating_feature_1: "Permanent Makeup",
+    floating_feature_2: "Expert Stylist",
+
+    // About
+    about_tag: "Our Expertise",
+    about_title: "Artistry & Professional Care",
+    about_desc: "Noura alsayed Beauty Lounge offers first-class beauty sessions, combining safety, state-of-the-art techniques, and visual perfection. We strive to highlight your natural elegance with a premium touch.",
+    feat_1_title: "Permanent Makeup Expertise",
+    feat_1_desc: "Flawless long-lasting cosmetic enhancements tailored perfectly to harmonize with your features.",
+    feat_2_title: "Advanced Microblading",
+    feat_2_desc: "Creating natural, hair-like strokes using modern techniques and certified safe pigments.",
+    feat_3_title: "Healthy Lip Blush",
+    feat_3_desc: "Adding natural radiance and healthy glow with long-term premium color pigmentation.",
+
+    // Services
+    services_tag: "Exclusive Services",
+    services_title: "Designed For Your Elegance",
+    srv_bridal_title: "Full Bridal Prep",
+    srv_bridal_desc: "A luxurious experience including professional bridal makeup, high-end hair styling, and full body glow-ups for your special day.",
+    srv_hair_title: "Hair Protein & Treatments",
+    srv_hair_desc: "Restore your hair's silkiness and shine with our safe, deep-conditioning organic protein therapy treatments.",
+    srv_dye_title: "Modern Dye & Highlights",
+    srv_dye_desc: "Stunning coloring, elegant high-low lights, and balayage techniques using premium protective brands.",
+    srv_skin_title: "Skin Care & Hydrafacial",
+    srv_skin_desc: "Deep skin cleansing and professional hydrafacial sessions for a deeply hydrated, glowing, and healthy skin complexion.",
+    srv_more_btn: "Learn More",
+
+    // Pricing
+    pricing_tag: "Our Packages",
+    pricing_title: "Premium Investment In Beauty",
+    currency_jod: "JOD",
+    currency_usd: "USD",
+    period_once: "/ package",
+    period_item: "/ service",
+    popular_badge: "Popular • Diamond",
+    exclusive_badge: "Exclusive • Favorite",
+    pkg_select_btn: "Select Package",
+
+    pkg_engagement_title: "Engagement Bride Package",
+    pkg_engagement_subtitle: "An essential glamour package for an unforgettable engagement look.",
+    pkg_engagement_feat_1: "Professional Bridal Makeup",
+    pkg_engagement_feat_2: "Custom Hair Styling / Veil setting",
+    pkg_engagement_feat_3: "Pedicure, Manicure & Paraffin treatment",
+    pkg_engagement_feat_4: "Advanced Hydrafacial Cleanse",
+
+    pkg_royal_title: "Royal Bride Package",
+    pkg_royal_subtitle: "The ultimate luxury bridal prep experience for a queenly appearance.",
+    pkg_royal_feat_1: "Expert Professional Makeup (Premium Products)",
+    pkg_royal_feat_2: "Luxury Hair Styling with extensions setup",
+    pkg_royal_feat_3: "Pedicure, Manicure & Warm Paraffin Spa",
+    pkg_royal_feat_4: "Traditional Royal Moroccan Bath & Glow",
+    pkg_royal_feat_5: "Royal Hydrafacial & Collagen Skin Treatment",
+
+    additional_title: "A La Carte Treatments",
+    add_collagen: "Collagen Skin Treatment",
+    add_microblading: "Microblading Session",
+    add_micro_touchup: "Microblading Touch-up",
+    add_lipblush: "Permanent Lip Blush",
+
+    // Payments
+    payments_tag: "Payment Options",
+    payments_title: "Seamless & Secure Checkout",
+    payments_desc: "We accept multiple payment methods for your convenience. You can securely pay at the center or transfer online via CliQ.",
+    cliq_label: "CLIQ INSTANT ADDRESS",
+    cliq_holder: "Noura alsayed",
+    copy_tooltip: "Copy CliQ Address",
+    copy_success: "CliQ address copied to clipboard!",
+
+    // Location
+    location_tag: "Find Our Center",
+    location_title: "Visit Us Today",
+    loc_address_title: "Our Address",
+    loc_address_desc: "Amman, Jordan",
+    loc_hours_title: "Working Hours",
+    loc_hours_desc: "10:00 AM - 9:00 PM (Daily)",
+    loc_contact_title: "Call for Bookings",
+    loc_directions_btn: "Get Directions on Google Maps",
+
+    // Footer
+    footer_subtitle: "Managed by beauty & skin specialist Noura Alsayed",
+    footer_desc: "Noura alsayed beauty lounge is a luxurious sanctuary for women, dedicated to highlighting natural charm with premium cosmetics and state-of-the-art safe techniques.",
+    footer_quick_links: "Quick Links",
+    footer_connect: "Connect With Us",
+    footer_rights: "© 2026 Noura alsayed Beauty Lounge. All Rights Reserved.",
+    footer_author: "Designed for elegance."
+  },
+  ar: {
+    // Navigation
+    nav_home: "الرئيسية",
+    nav_about: "من نحن",
+    nav_services: "خدماتنا",
+    nav_pricing: "الباقات والأسعار",
+    nav_location: "موقعنا",
+    nav_cta: "احجزي الآن",
+    lang_label: "English",
+
+    // Hero
+    hero_badge: "بيوتي لونج متكامل ورائد",
+    hero_title_2: "بيوتي لونج نورا السيد",
+    hero_subtitle: "بإدارة أخصائية التجميل والبشرة نورا السيد",
+    hero_tagline: "بيوتي لونج متكامل تجربة جمال كاملة تحت سقف واحد. نأخذكِ في رحلة ملكية لنبرز سحر جمالك وجاذبيتكِ الطبيعية بلمسات خبيرة واحترافية.",
+    hero_cta_call: "اتصلي بنا",
+    hero_cta_whatsapp: "حجز عبر الواتساب",
+    floating_rating: "تقييم 5.0 نجوم",
+    floating_review_count: "+200 تقييم حقيقي",
+    floating_feature_1: "ميك أب دائم",
+    floating_feature_2: "خبراء تصفيف",
+
+    // About
+    about_tag: "خبرتنا الاحترافية",
+    about_title: "فن الجمال والرعاية الآمنة",
+    about_desc: "يقدم بيوتي لونج نورا السيد جلسات تجميل من الدرجة الأولى، تجمع بين الأمان الصحي، التقنيات الحديثة، والكمال البصري. نسعى دائمًا لإظهار أناقتك الطبيعية بلمسة مميزة تدوم طويلاً.",
+    feat_1_title: "خبرة في المكياج الدائم",
+    feat_1_desc: "تعديلات تجميلية خالية من العيوب تدوم طويلاً وتتناسب بشكل مثالي مع ملامحك.",
+    feat_2_title: "ميكروبليدنج متطور",
+    feat_2_desc: "رسم شعيرات طبيعية ودقيقة باستخدام تقنيات حديثة وأصباغ معتمدة وآمنة.",
+    feat_3_title: "توريد الشفايف الطبيعي",
+    feat_3_desc: "إضفاء إشراقة وتوريد طبيعي وصحي مع أصباغ طبية ثابتة ولمسة طبيعية جذابة.",
+
+    // Services
+    services_tag: "خدماتنا الحصرية",
+    services_title: "مصممة خصيصاً لأناقتكِ",
+    srv_bridal_title: "تجهيز عرائس كامل",
+    srv_bridal_desc: "تجربة ملكية متكاملة تشمل مكياج العروس الاحترافي وتصفيف الشعر الفخم والعناية بالجسم لإطلالة لا تُنسى في ليلة العمر.",
+    srv_hair_title: "بروتين وعلاجات شعر",
+    srv_hair_desc: "استعيدي حيوية ولمعان ونعومة شعركِ باستخدام علاجات البروتين العضوية والآمنة والخالية من المواد الضارة.",
+    srv_dye_title: "صبغات وهايلايت عصري",
+    srv_dye_desc: "ألوان صبغات مذهلة، خصلات هايلايت ولولايت أنيقة، وتقنيات البالياج الحديثة باستخدام أفضل الماركات الحامية للشعر.",
+    srv_skin_title: "العناية بالبشرة والفيشل",
+    srv_skin_desc: "جلسات تنظيف عميق للبشرة وجلسات فيشل متخصصة وهيدرافيشيل لبشرة صحية، رطبة، ومشرقة خالية من العيوب.",
+    srv_more_btn: "تفاصيل الخدمة",
+
+    // Pricing
+    pricing_tag: "عروضنا وباقاتنا",
+    pricing_title: "استثمار مميز في جمالكِ",
+    currency_jod: "دينار",
+    currency_usd: "دولار",
+    period_once: "/ للباقة",
+    period_item: "/ للخدمة",
+    popular_badge: "الأكثر طلباً • دايموند",
+    exclusive_badge: "الباقة الملكية • المفضلة",
+    pkg_select_btn: "اختيار الباقة",
+
+    pkg_engagement_title: "بكج عروس الخطبة",
+    pkg_engagement_subtitle: "الباقة الأساسية لتألق مبهر وإطلالة خطوبة ساحرة تلفت الأنظار.",
+    pkg_engagement_feat_1: "مكياج خطوبة احترافي",
+    pkg_engagement_feat_2: "تسريحة شعر مميزة / تركيب طرحة",
+    pkg_engagement_feat_3: "باديكير ومانيكير مع برافين رائع",
+    pkg_engagement_feat_4: "جلسة هيدرافيشيل لتنظيف ونضارة البشرة",
+
+    pkg_royal_title: "بكج العروس الملكي",
+    pkg_royal_subtitle: "التجربة الفاخرة القصوى للعرائس للظهور بإطلالة الملكات الأنيقة.",
+    pkg_royal_feat_1: "مكياج عروس احترافي خبير بمنتجات فاخرة",
+    pkg_royal_feat_2: "تسريحة شعر ملكية فاخرة مع تركيب اكستنشن",
+    pkg_royal_feat_3: "سبا باديكير ومانيكير مع برافين دافئ ومغذي",
+    pkg_royal_feat_4: "حمام مغربي ملكي تقليدي لتوحيد لون البشرة ونعومتها",
+    pkg_royal_feat_5: "جلسة فيشل ملكية هيدرافيشيل وعلاج الكولاجين",
+
+    additional_title: "خدمات تجميلية إضافية",
+    add_collagen: "جلسة علاج بشرة بالكولاجين",
+    add_microblading: "جلسة ميكروبليدنج حواجب",
+    add_micro_touchup: "رتوش (تعديل) ميكروبليدنج",
+    add_lipblush: "توريد شفايف دائم (تاتوه طبي)",
+
+    // Payments
+    payments_tag: "طرق الدفع المتوفرة",
+    payments_title: "عملية دفع سهلة وسريعة",
+    payments_desc: "نقبل العديد من وسائل الدفع لراحتك. يمكنك الدفع نقداً في المركز أو التحويل مباشرة ومجاناً عبر كليك.",
+    cliq_label: "عنوان كليك الفوري (CliQ)",
+    cliq_holder: "Noura alsayed",
+    copy_tooltip: "نسخ عنوان كليك",
+    copy_success: "تم نسخ عنوان كليك بنجاح!",
+
+    // Location
+    location_tag: "موقع المركز",
+    location_title: "شرفينا بزيارتكِ اليوم",
+    loc_address_title: "العنوان الرئيسي",
+    loc_address_desc: "عمان، الأردن",
+    loc_hours_title: "ساعات العمل",
+    loc_hours_desc: "10:00 صباحاً - 9:00 مساءً (يومياً)",
+    loc_contact_title: "للاستفسار والحجز المباشر",
+    loc_directions_btn: "الاتجاهات عبر خرائط جوجل",
+
+    // Footer
+    footer_subtitle: "بإدارة أخصائية التجميل والبشرة نورا السيد",
+    footer_desc: "بيوتي لونج نورا السيد هو واحة جمالية فاخرة للسيدات، مكرس لإظهار جاذبيتكِ الطبيعية بأفضل مستحضرات التجميل العالمية والتقنيات الجمالية الآمنة.",
+    footer_quick_links: "روابط سريعة",
+    footer_connect: "تابعينا على وسائل التواصل",
+    footer_rights: "© 2026 بيوتي لونج نورا السيد. جميع الحقوق محفوظة.",
+    footer_author: "صُمم بكل حب لأناقتكِ المطلقة."
+  }
 };
 
-(function () {
-    'use strict';
+// Raw Numerical Prices for Dynamic Conversions (JOD to USD exchange rate is fixed at 1.41)
+const rawPrices = {
+  engagement_pkg: 150,
+  royal_pkg: 300,
+  collagen_srv: 30,
+  microblading_srv: 100,
+  micro_touchup_srv: 20,
+  lipblush_srv: 100
+};
 
-    /* ── Language Toggle ── */
-    let currentLang = 'ar';
-    const langToggleBtn = document.getElementById('langToggle');
+// ==========================================
+// STATE MANAGEMENT & MAIN INITIALIZATION
+// ==========================================
+let currentLang = localStorage.getItem("noura_lang") || "ar"; // Default to Arabic (as it is a local Jordan business)
+let currentCurrency = localStorage.getItem("noura_currency") || "JOD"; // Default to Jordanian Dinar
 
-    function switchLanguage(lang) {
-        currentLang = lang;
-        document.documentElement.setAttribute('lang', lang);
-        document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
-        
-        langToggleBtn.textContent = lang === 'ar' ? 'English' : 'عربي';
+document.addEventListener("DOMContentLoaded", () => {
+  // Setup elements
+  const langToggleBtn = document.getElementById("lang-toggle");
+  const currencySwitch = document.getElementById("currency-switch");
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
+  const cliqCopyBtn = document.getElementById("cliq-copy");
 
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-            const key = el.getAttribute('data-i18n');
-            if (translations[lang] && translations[lang][key]) {
-                el.innerHTML = translations[lang][key];
-            }
+  // Set initial state from storage
+  applyLanguage(currentLang);
+  applyCurrency(currentCurrency);
+
+  // Language Change Listener
+  if (langToggleBtn) {
+    langToggleBtn.addEventListener("click", () => {
+      currentLang = currentLang === "en" ? "ar" : "en";
+      localStorage.setItem("noura_lang", currentLang);
+      applyLanguage(currentLang);
+
+      // Close mobile menu if open
+      if (navMenu.classList.contains("active")) {
+        toggleMobileMenu();
+      }
+    });
+  }
+
+  // Currency Toggle Switch Listener
+  if (currencySwitch) {
+    currencySwitch.addEventListener("click", () => {
+      currentCurrency = currentCurrency === "JOD" ? "USD" : "JOD";
+      localStorage.setItem("noura_currency", currentCurrency);
+      applyCurrency(currentCurrency);
+    });
+  }
+
+  // Hamburger Menu Actions
+  if (hamburger) {
+    hamburger.addEventListener("click", toggleMobileMenu);
+  }
+
+  // Close menu when clicking on nav links (on mobile viewport)
+  document.querySelectorAll(".nav-link").forEach(link => {
+    link.addEventListener("click", () => {
+      if (navMenu.classList.contains("active")) {
+        toggleMobileMenu();
+      }
+    });
+  });
+
+  // Copy CliQ Address
+  if (cliqCopyBtn) {
+    cliqCopyBtn.addEventListener("click", () => {
+      const cliqNum = "0788880955";
+      navigator.clipboard.writeText(cliqNum)
+        .then(() => {
+          showToast(translations[currentLang].copy_success);
+        })
+        .catch(err => {
+          console.error("Failed to copy text: ", err);
         });
-    }
+    });
+  }
 
-    if (langToggleBtn) {
-        langToggleBtn.addEventListener('click', () => {
-            switchLanguage(currentLang === 'ar' ? 'en' : 'ar');
-        });
-        // Initial setup
-        switchLanguage('ar');
-    }
-
-    /* ── Navbar scroll shrink ── */
-    var navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', function () {
-        navbar.classList.toggle('scrolled', window.scrollY > 60);
-    }, { passive: true });
-
-    /* ── Mobile menu toggle ── */
-    var navToggle = document.getElementById('navToggle');
-    var navLinks  = document.getElementById('navLinks');
-
-    if (navToggle && navLinks) {
-        navToggle.addEventListener('click', function () {
-            var open = navLinks.classList.toggle('open');
-            navToggle.classList.toggle('open', open);
-            navToggle.setAttribute('aria-expanded', String(open));
-        });
-
-        navLinks.querySelectorAll('a').forEach(function (link) {
-            link.addEventListener('click', function () {
-                navLinks.classList.remove('open');
-                navToggle.classList.remove('open');
-                navToggle.setAttribute('aria-expanded', 'false');
-            });
-        });
-    }
-
-    /* ── QR Code generation ── */
-    function generateQRCodes() {
-        var configs = [
-            { id: 'qr-instagram', url: 'https://www.instagram.com/professional_noura_alsayed' },
-            { id: 'qr-facebook',  url: 'https://www.facebook.com/Professional.Noura.Alsayed/' },
-            { id: 'qr-snapchat',  url: 'https://snapchat.com/t/vjpgYiQa' }
-        ];
-
-        configs.forEach(function (cfg) {
-            var el = document.getElementById(cfg.id);
-            if (!el) return;
-            try {
-                new QRCode(el, {
-                    text:         cfg.url,
-                    width:        144,
-                    height:       144,
-                    colorDark:    '#2f1b4c',
-                    colorLight:   '#FFFFFF',
-                    correctLevel: QRCode.CorrectLevel.H
-                });
-            } catch (e) {
-                el.innerHTML = '<p style="color:#999;font-size:0.7rem;padding:8px">QR unavailable</p>';
-            }
-        });
-    }
-
-    function waitForQR(n) {
-        if (typeof QRCode !== 'undefined') {
-            generateQRCodes();
-        } else if (n > 0) {
-            setTimeout(function () { waitForQR(n - 1); }, 300);
-        }
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function () { waitForQR(15); });
+  // Sticky Navigation Trigger
+  window.addEventListener("scroll", () => {
+    const navbar = document.getElementById("navbar");
+    if (window.scrollY > 50) {
+      navbar.classList.add("scrolled");
     } else {
-        waitForQR(15);
+      navbar.classList.remove("scrolled");
     }
+  });
 
-    /* ── Scroll-reveal animation ── */
-    if ('IntersectionObserver' in window) {
-        var observer = new IntersectionObserver(function (entries) {
-            entries.forEach(function (entry) {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity   = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.12 });
+  // Initialize Intersection Observer for Scroll Reveals
+  initScrollReveals();
+});
 
-        document.querySelectorAll('.service-card, .pricing-card, .package-card, .social-qr-card, .contact-item, .contact-panel').forEach(function (el) {
-            el.style.opacity    = '0';
-            el.style.transform  = 'translateY(24px)';
-            el.style.transition = 'opacity 0.55s ease, transform 0.55s ease';
-            observer.observe(el);
-        });
+// ==========================================
+// CORE FUNCTIONS
+// ==========================================
+
+// Apply Translations and Layout Direction (RTL/LTR)
+function applyLanguage(lang) {
+  // Set layout properties on HTML tag
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+
+  // Translate all marked elements
+  const translateElements = document.querySelectorAll("[data-i18n]");
+  translateElements.forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    if (translations[lang] && translations[lang][key]) {
+      el.textContent = translations[lang][key];
     }
+  });
 
-})();
+  // Update button language flag and specific visual adjustments
+  const flagIcon = document.querySelector("#lang-toggle i");
+  const flagText = document.querySelector("#lang-toggle span");
+  if (flagText && flagIcon) {
+    if (lang === "ar") {
+      flagIcon.className = "fas fa-globe";
+      flagText.textContent = "English";
+    } else {
+      flagIcon.className = "fas fa-globe";
+      flagText.textContent = "العربية";
+    }
+  }
+
+  // Refresh current currency labels since currency is language dependent (JOD vs دينار)
+  applyCurrency(currentCurrency);
+}
+
+// Convert prices dynamically and update DOM elements
+function applyCurrency(currency) {
+  const isUSD = currency === "USD";
+  const currencySwitch = document.getElementById("currency-switch");
+  const labelJod = document.getElementById("label-jod");
+  const labelUsd = document.getElementById("label-usd");
+
+  // Adjust sliding dot position inside switch control
+  if (isUSD) {
+    currencySwitch.classList.add("switched");
+    labelUsd.classList.add("active");
+    labelJod.classList.remove("active");
+  } else {
+    currencySwitch.classList.remove("switched");
+    labelJod.classList.add("active");
+    labelUsd.classList.remove("active");
+  }
+
+  // Conversion Multiplier (1 JOD = 1.4 USD)
+  const multiplier = 1.4;
+  const currencySymbol = translations[currentLang][isUSD ? "currency_usd" : "currency_jod"];
+
+  // Update Engagement Package price
+  const engagementPrice = isUSD ? Math.round(rawPrices.engagement_pkg * multiplier) : rawPrices.engagement_pkg;
+  document.getElementById("price-engagement-val").textContent = engagementPrice;
+  document.getElementById("currency-engagement-label").textContent = currencySymbol;
+
+  // Update Royal Package price
+  const royalPrice = isUSD ? Math.round(rawPrices.royal_pkg * multiplier) : rawPrices.royal_pkg;
+  document.getElementById("price-royal-val").textContent = royalPrice;
+  document.getElementById("currency-royal-label").textContent = currencySymbol;
+
+  // Update Additional List prices
+  const additionalList = [
+    { id: "price-add-collagen", raw: rawPrices.collagen_srv },
+    { id: "price-add-micro", raw: rawPrices.microblading_srv },
+    { id: "price-add-touchup", raw: rawPrices.micro_touchup_srv },
+    { id: "price-add-lipblush", raw: rawPrices.lipblush_srv }
+  ];
+
+  additionalList.forEach(item => {
+    const el = document.getElementById(item.id);
+    if (el) {
+      const finalPrice = isUSD ? Math.round(item.raw * multiplier) : item.raw;
+      // In Arabic show JOD/USD after number, in English show $ before or USD after
+      el.textContent = `${finalPrice} ${currencySymbol}`;
+    }
+  });
+}
+
+// Toggle Hamburger Nav Menu Panel
+function toggleMobileMenu() {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
+  hamburger.classList.toggle("open");
+  navMenu.classList.toggle("active");
+}
+
+// Custom Toast notification
+function showToast(message) {
+  let toast = document.getElementById("toast-toast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "toast-toast";
+    toast.className = "toast-msg";
+    document.body.appendChild(toast);
+  }
+
+  toast.textContent = message;
+  toast.classList.add("show");
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 3000);
+}
+
+// Intersection Observer Reveal Scroll
+function initScrollReveals() {
+  const revealElements = document.querySelectorAll(".reveal, .reveal-scale");
+
+  const revealCallback = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+        // Stop observing once it has been revealed
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+
+  const observerOptions = {
+    root: null, // Viewport
+    threshold: 0.1, // Trigger when 10% is visible
+    rootMargin: "0px 0px -50px 0px" // Slight offset to trigger earlier or later
+  };
+
+  const observer = new IntersectionObserver(revealCallback, observerOptions);
+
+  revealElements.forEach(el => {
+    observer.observe(el);
+  });
+}
