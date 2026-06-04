@@ -13,10 +13,10 @@ const translations = {
     lang_label: "العربية",
 
     // Hero
-    hero_badge: "Official Premium Lounge",
-    hero_title_2: "Noura alsayed Beauty Lounge",
+    hero_badge: "Official Premium Center",
+    hero_title_2: "Noura alsayed Beauty Center",
     hero_subtitle: "Managed by beauty & skin specialist Noura Alsayed",
-    hero_tagline: "A complete beauty lounge. A luxurious experience under one roof where your elegance and natural charm are professionalized.",
+    hero_tagline: "A complete beauty center. A luxurious experience under one roof where your elegance and natural charm are professionalized.",
     hero_cta_call: "Call Center",
     hero_cta_whatsapp: "WhatsApp Booking",
     floating_rating: "5.0 Rated",
@@ -27,7 +27,7 @@ const translations = {
     // About
     about_tag: "Our Expertise",
     about_title: "Artistry & Professional Care",
-    about_desc: "Noura alsayed Beauty Lounge offers first-class beauty sessions, combining safety, state-of-the-art techniques, and visual perfection. We strive to highlight your natural elegance with a premium touch.",
+    about_desc: "Noura alsayed Beauty Center offers first-class beauty sessions, combining safety, state-of-the-art techniques, and visual perfection. We strive to highlight your natural elegance with a premium touch.",
     feat_1_title: "Permanent Makeup Expertise",
     feat_1_desc: "Flawless long-lasting cosmetic enhancements tailored perfectly to harmonize with your features.",
     feat_2_title: "Advanced Microblading",
@@ -101,10 +101,10 @@ const translations = {
 
     // Footer
     footer_subtitle: "Managed by beauty & skin specialist Noura Alsayed",
-    footer_desc: "Noura alsayed beauty lounge is a luxurious sanctuary for women, dedicated to highlighting natural charm with premium cosmetics and state-of-the-art safe techniques.",
+    footer_desc: "Noura alsayed beauty center is a luxurious sanctuary for women, dedicated to highlighting natural charm with premium cosmetics and state-of-the-art safe techniques.",
     footer_quick_links: "Quick Links",
     footer_connect: "Connect With Us",
-    footer_rights: "© 2026 Noura alsayed Beauty Lounge. All Rights Reserved.",
+    footer_rights: "© 2026 Noura alsayed Beauty Center. All Rights Reserved.",
     footer_author: "Designed for elegance."
   },
   ar: {
@@ -118,10 +118,10 @@ const translations = {
     lang_label: "English",
 
     // Hero
-    hero_badge: "بيوتي لونج متكامل ورائد",
-    hero_title_2: "بيوتي لونج نورا السيد",
+    hero_badge: "بيوتي سنتر متكامل ورائد",
+    hero_title_2: "بيوتي سنتر نورا السيد",
     hero_subtitle: "بإدارة أخصائية التجميل والبشرة نورا السيد",
-    hero_tagline: "بيوتي لونج متكامل تجربة جمال كاملة تحت سقف واحد. نأخذكِ في رحلة ملكية لنبرز سحر جمالك وجاذبيتكِ الطبيعية بلمسات خبيرة واحترافية.",
+    hero_tagline: "بيوتي سنتر متكامل تجربة جمال كاملة تحت سقف واحد. نأخذكِ في رحلة ملكية لنبرز سحر جمالك وجاذبيتكِ الطبيعية بلمسات خبيرة واحترافية.",
     hero_cta_call: "اتصلي بنا",
     hero_cta_whatsapp: "حجز عبر الواتساب",
     floating_rating: "تقييم 5.0 نجوم",
@@ -132,7 +132,7 @@ const translations = {
     // About
     about_tag: "خبرتنا الاحترافية",
     about_title: "فن الجمال والرعاية الآمنة",
-    about_desc: "يقدم بيوتي لونج نورا السيد جلسات تجميل من الدرجة الأولى، تجمع بين الأمان الصحي، التقنيات الحديثة، والكمال البصري. نسعى دائمًا لإظهار أناقتك الطبيعية بلمسة مميزة تدوم طويلاً.",
+    about_desc: "يقدم بيوتي سنتر نورا السيد جلسات تجميل من الدرجة الأولى، تجمع بين الأمان الصحي، التقنيات الحديثة، والكمال البصري. نسعى دائمًا لإظهار أناقتك الطبيعية بلمسة مميزة تدوم طويلاً.",
     feat_1_title: "خبرة في المكياج الدائم",
     feat_1_desc: "تعديلات تجميلية خالية من العيوب تدوم طويلاً وتتناسب بشكل مثالي مع ملامحك.",
     feat_2_title: "ميكروبليدنج متطور",
@@ -206,10 +206,10 @@ const translations = {
 
     // Footer
     footer_subtitle: "بإدارة أخصائية التجميل والبشرة نورا السيد",
-    footer_desc: "بيوتي لونج نورا السيد هو واحة جمالية فاخرة للسيدات، مكرس لإظهار جاذبيتكِ الطبيعية بأفضل مستحضرات التجميل العالمية والتقنيات الجمالية الآمنة.",
+    footer_desc: "بيوتي سنتر نورا السيد هو واحة جمالية فاخرة للسيدات، مكرس لإظهار جاذبيتكِ الطبيعية بأفضل مستحضرات التجميل العالمية والتقنيات الجمالية الآمنة.",
     footer_quick_links: "روابط سريعة",
     footer_connect: "تابعينا على وسائل التواصل",
-    footer_rights: "© 2026 بيوتي لونج نورا السيد. جميع الحقوق محفوظة.",
+    footer_rights: "© 2026 بيوتي سنتر نورا السيد. جميع الحقوق محفوظة.",
     footer_author: "صُمم بكل حب لأناقتكِ المطلقة."
   }
 };
