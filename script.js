@@ -19,6 +19,7 @@ const translations = {
     hero_tagline: "A complete beauty center. A luxurious experience under one roof where your elegance and natural charm are professionalized.",
     hero_cta_call: "Call Center",
     hero_cta_whatsapp: "WhatsApp Booking",
+    hero_cta_google: "Rate us on Google",
     floating_rating: "5.0 Rated",
     floating_review_count: "200+ Reviews",
     floating_feature_1: "Permanent Makeup",
@@ -98,6 +99,8 @@ const translations = {
     loc_hours_desc: "10:00 AM - 9:00 PM (Daily)",
     loc_contact_title: "Call for Bookings",
     loc_directions_btn: "Get Directions on Google Maps",
+    loc_parking_title: "Parking",
+    loc_parking_desc: "Free valet parking available",
 
     // Footer
     footer_subtitle: "Managed by beauty & skin specialist Noura Alsayed",
@@ -105,7 +108,11 @@ const translations = {
     footer_quick_links: "Quick Links",
     footer_connect: "Connect With Us",
     footer_rights: "© 2026 Noura alsayed Beauty Center. All Rights Reserved.",
-    footer_author: "Designed for elegance."
+    footer_author: "Designed for elegance.",
+    social_facebook: "Facebook",
+    social_instagram: "Instagram",
+    social_snapchat: "Snapchat",
+    social_google: "Rate us on Google"
   },
   ar: {
     // Navigation
@@ -124,6 +131,7 @@ const translations = {
     hero_tagline: "بيوتي سنتر متكامل تجربة جمال كاملة تحت سقف واحد. نأخذكِ في رحلة ملكية لنبرز سحر جمالك وجاذبيتكِ الطبيعية بلمسات خبيرة واحترافية.",
     hero_cta_call: "اتصلي بنا",
     hero_cta_whatsapp: "حجز عبر الواتساب",
+    hero_cta_google: "قيمنا على جوجل",
     floating_rating: "تقييم 5.0 نجوم",
     floating_review_count: "+200 تقييم حقيقي",
     floating_feature_1: "ميك أب دائم",
@@ -203,6 +211,8 @@ const translations = {
     loc_hours_desc: "10:00 صباحاً - 9:00 مساءً (يومياً)",
     loc_contact_title: "للاستفسار والحجز المباشر",
     loc_directions_btn: "الاتجاهات عبر خرائط جوجل",
+    loc_parking_title: "مواقف السيارات",
+    loc_parking_desc: "متوفر باركينج خدمة اصطفاف مجانية",
 
     // Footer
     footer_subtitle: "بإدارة أخصائية التجميل والبشرة نورا السيد",
@@ -210,7 +220,11 @@ const translations = {
     footer_quick_links: "روابط سريعة",
     footer_connect: "تابعينا على وسائل التواصل",
     footer_rights: "© 2026 بيوتي سنتر نورا السيد. جميع الحقوق محفوظة.",
-    footer_author: "صُمم بكل حب لأناقتكِ المطلقة."
+    footer_author: "صُمم بكل حب لأناقتكِ المطلقة.",
+    social_facebook: "فيسبوك",
+    social_instagram: "انستغرام",
+    social_snapchat: "سناب شات",
+    social_google: "قيمنا على جوجل"
   }
 };
 
